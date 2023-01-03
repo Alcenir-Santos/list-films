@@ -11,8 +11,6 @@ export default function Home() {
         async function loadFilms() {
             const resp = await api.get('movie/now_playing', {
                 params: {
-                    api_key: '0ec35a7e2d3637bdfd12915490ef85f9',
-                    language: 'pt-BR',
                     page: 1
                 }
             });

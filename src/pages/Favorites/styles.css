@@ -1,0 +1,35 @@
+.listFilms {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.listFilms h1 {
+    margin-bottom: 14px;
+}
+.listFilms span {
+    font-size: 18px;
+}
+
+.listFilms ul {
+    width: 720px;
+}
+
+.listFilms ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.listFilms div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listFilms div a {
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 14px;
+}
